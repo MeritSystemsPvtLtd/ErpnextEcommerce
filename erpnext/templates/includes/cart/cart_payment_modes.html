@@ -1,0 +1,11 @@
+<div >
+	<div >
+	{{ _("Select Mode of Payment:-") }}
+	<select class="select-ship-rule">
+		 name="Exercise1"
+		{% for d in mop %}
+        	<option value="">{{d.get("mode_of_payment")}}</option>
+					{% endfor %}
+			  </select>
+				</div>
+</div>

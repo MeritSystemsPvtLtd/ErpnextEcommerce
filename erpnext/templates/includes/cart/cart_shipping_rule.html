@@ -1,0 +1,10 @@
+  <div class="ship-rule">
+    <div>
+	{{ _("Select Shipping Rule:-") }}
+	<select class="select-ship-rule">
+		{% for d in sop %}
+        	<option value="{{ d.get("label") }}">{{d.get("label")}}</option>
+					{% endfor %}
+			  </select>
+				</div>
+</div>
